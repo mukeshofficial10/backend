@@ -1,5 +1,6 @@
 {
   "name": "learnweave-backend",
+<<<<<<< HEAD
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
@@ -23,3 +24,70 @@
     "nodemon": "^3.1.9"
   }
 }
+=======
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@monaco-editor/react": "^4.7.0",
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "cra-template": "1.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "localtunnel": "^2.0.2",
+    "lucide-react": "^0.475.0",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.5",
+    "multer": "^1.4.5-lts.1",
+    "ngrok": "^5.0.0-beta.2",
+    "nodemailer": "^6.9.16",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.4.0",
+    "react-router-dom": "^7.1.3",
+    "react-scripts": "5.0.1",
+    "react-youtube": "^10.1.0",
+    "web-vitals": "^4.2.4",
+    "main": "src/components/server.js"
+  },
+  "scripts": {
+    "start": "node src/components/server.js",
+    "dev": "nodemon src/components/server.js",
+    "dev:debug": "cd src/components && nodemon server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "backend": "node src/components/server.js",
+    "backend-dev": "nodemon src/components/server.js",
+    "full-dev": "concurrently \"npm run backend-dev\" \"npm run start\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9"
+  }
+}
+>>>>>>> 194e066 (Add package.json with modify for backend deployment)
