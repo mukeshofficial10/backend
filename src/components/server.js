@@ -33,7 +33,7 @@ const languageMap = {
 };
   
 // Middleware
-app.use(cors({ origin: 'http://localhost:3000', credentials: true }));
+app.use(cors({ origin: 'https://learnweave.netlify.app/', credentials: true }));
 app.use(bodyParser.json());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
